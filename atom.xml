@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  <icon>https://manxhdgui.github.io/icon.png</icon>
+  
+  <link href="https://manxhdgui.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://manxhdgui.github.io/"/>
+  <updated>2021-10-06T03:11:17.730Z</updated>
+  <id>https://manxhdgui.github.io/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>成绩转换</title>
+    <link href="https://manxhdgui.github.io/2021/10/04/%E6%88%90%E7%BB%A9%E8%BD%AC%E6%8D%A2/"/>
+    <id>https://manxhdgui.github.io/2021/10/04/%E6%88%90%E7%BB%A9%E8%BD%AC%E6%8D%A2/</id>
+    <published>2021-10-04T10:13:19.000Z</published>
+    <updated>2021-10-06T03:11:17.730Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;把百分制成绩转换为五分制表示。&lt;br&gt;大于等于90分为A；&lt;br&gt;小于90且大于等于80为B；&lt;br&gt;小于80且大于等于70为C；&lt;br&gt;小于70且大于等于60为D；&lt;br&gt;小于60为E。&lt;br&gt;输入一个百分制成绩，&lt;br&gt;输出一个五分制成绩。&lt;br&gt;#include</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://manxhdgui.github.io/2021/09/18/hello-world/"/>
+    <id>https://manxhdgui.github.io/2021/09/18/hello-world/</id>
+    <published>2021-09-18T01:25:37.226Z</published>
+    <updated>2021-09-18T01:25:37.226Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
