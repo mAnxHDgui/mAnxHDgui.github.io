@@ -6,7 +6,7 @@
   <link href="https://manxhdgui.github.io/atom.xml" rel="self"/>
   
   <link href="https://manxhdgui.github.io/"/>
-  <updated>2021-10-27T05:24:39.950Z</updated>
+  <updated>2021-10-30T04:02:38.570Z</updated>
   <id>https://manxhdgui.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>函数记录（pwn基础知识）</title>
+    <link href="https://manxhdgui.github.io/2021/10/30/%E5%87%BD%E6%95%B0%E8%AE%B0%E5%BD%95%EF%BC%88pwn%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%89/"/>
+    <id>https://manxhdgui.github.io/2021/10/30/%E5%87%BD%E6%95%B0%E8%AE%B0%E5%BD%95%EF%BC%88pwn%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%89/</id>
+    <published>2021-10-30T03:46:52.000Z</published>
+    <updated>2021-10-30T04:02:38.570Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;strcpy (a,b)</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>处理8进制和16进制</title>
