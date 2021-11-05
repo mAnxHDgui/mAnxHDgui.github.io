@@ -22,7 +22,7 @@
 
   
 
-  <title>message | blogs of mAnxHDgui</title>
+  <title>elf文件介绍（pwn基础知识） | blogs of mAnxHDgui</title>
 
   
 
@@ -44,7 +44,7 @@
   <div class="root-container">
     
 <!-- header container -->
-<header class="header-container">
+<header class="header-container post">
   
     <div class="post-image" style="background-image: url(https://qiniu.sukoshi.xyz/src/images/68686407_p0.jpg)"></div>
   
@@ -94,38 +94,72 @@
 
   
   
-
-  
-  
     <div class="header-content">
-      <div class="post-text layout-block layout-padding">
-        <h1 class="title-wrap">message</h1>
-        
+      <div class="post-text layout-block">
+        <div class="layout-margin">
+          <h1 class="title-wrap">elf文件介绍（pwn基础知识）</h1>
+          <h2 class="title-sub-wrap">
+            <strong>John Doe</strong>
+            <span>发布于</span>
+            <time  class="article-date" datetime="2021-11-04T11:50:44.000Z" itemprop="datePublished">2021-11-04</time>
+          </h2>
+          <ul class="wrap-list dark">
+  
+</ul>
+          <ul class="wrap-list dark">
+  
+</ul>
+        </div>
       </div>
     </div>
+  
+
+  
   
   
 </header>
 
-    <!-- 分页(其他自定义页面) -->
+    <!-- 文章 -->
 
-<!-- 自定义页面 -->
-
+<!-- 文章内容 -->
 <div class="body-container">
   <article class="content-container layout-block post-container">
     <div class="article-info">
       
+      
+      
+      
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        
+        <p>elf（Executable and Linking Format）是一种文件格式，其内部结构符合一定的规范，（用于linux的可执行文件。<br>linux加载进内存的文件都需要符合这种格式规范。）</p>
+<p>elf文件规范是应用程序二进制接口（Application Binary Interface，ABI）的一部分。<br>在linux中可执行文件、so（动态链接库）、.o(可重定位文件)、ko（内核模块）都是elf文件格式，可见elf文件的重要性。</p>
+<p>ELF文件分为链接视图和执行视图，由4部分组成：<br>1.ELF头（ELF header）<br>2.程序头表（Program header table）<br>3.节（Section）<br>4.节头表（Section header table）</p>
+
       </section>
 
       
       
-
-      
-      
-        <section class="page-message-container layout-padding">
+        <nav class="article-nav">
           
+          
+            <div class="article-nav-item layout-padding">
+  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
+    
+    <div class="card-text">
+      
+        <a href="/2021/10/30/%E5%87%BD%E6%95%B0%E8%AE%B0%E5%BD%95%EF%BC%88pwn%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%89/" itemprop="url">
+          <h2 class="card-text--title text-ellipsis">函数记录（pwn基础知识）</h2>
+        </a>
+      
+      <div class="card-text--row">Older</div>
+    </div>
+  </article>
+</div>
+          
+        </nav>
+      
+
+      <section class="page-message-container layout-padding">
+        
 
 
   
@@ -153,8 +187,7 @@
   
 
 
-        </section>
-      
+      </section>
     </div>
     <div class="widget-info">
       <section class="widget-author widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
@@ -191,6 +224,8 @@
     </div>
   </div>
 </section>
+
+      
 
       
 <section class="widet-notice widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
@@ -236,7 +271,6 @@
     </div>
   </article>
 </div>
-
 
     <!-- footer container -->
 <footer id="footer" class="footer">
