@@ -6,7 +6,7 @@
   <link href="https://manxhdgui.github.io/atom.xml" rel="self"/>
   
   <link href="https://manxhdgui.github.io/"/>
-  <updated>2021-11-05T16:35:37.188Z</updated>
+  <updated>2021-11-13T08:48:47.116Z</updated>
   <id>https://manxhdgui.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基本栈介绍（pwn基础知识）</title>
+    <link href="https://manxhdgui.github.io/2021/11/13/%E5%9F%BA%E6%9C%AC%E6%A0%88%E4%BB%8B%E7%BB%8D%EF%BC%88pwn%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%89/"/>
+    <id>https://manxhdgui.github.io/2021/11/13/%E5%9F%BA%E6%9C%AC%E6%A0%88%E4%BB%8B%E7%BB%8D%EF%BC%88pwn%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%89/</id>
+    <published>2021-11-13T08:44:55.000Z</published>
+    <updated>2021-11-13T08:48:47.116Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;栈是一种典型的后进先出的数据结构，其操作主要有压栈(push)与出栈(pop)两种操作，两种操作都是操作栈顶。&lt;br&gt;高级语言在运行时都会被转换为汇编程序，在汇编程序运行过程中，充分利用了这一数据结构。每个程序在运行时都有虚拟地址空间，其中某一部分就是该程序对应的栈，用于保</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>elf文件介绍（pwn基础知识）</title>

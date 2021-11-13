@@ -22,7 +22,7 @@
 
   
 
-  <title>成绩转换 | blogs of mAnxHDgui</title>
+  <title>基本栈介绍（pwn基础知识） | blogs of mAnxHDgui</title>
 
   
 
@@ -97,11 +97,11 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">成绩转换</h1>
+          <h1 class="title-wrap">基本栈介绍（pwn基础知识）</h1>
           <h2 class="title-sub-wrap">
             <strong>John Doe</strong>
             <span>发布于</span>
-            <time  class="article-date" datetime="2021-10-04T10:13:19.000Z" itemprop="datePublished">2021-10-04</time>
+            <time  class="article-date" datetime="2021-11-13T08:44:55.000Z" itemprop="datePublished">2021-11-13</time>
           </h2>
           <ul class="wrap-list dark">
   
@@ -130,9 +130,7 @@
       
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <p>把百分制成绩转换为五分制表示。<br>大于等于90分为A；<br>小于90且大于等于80为B；<br>小于80且大于等于70为C；<br>小于70且大于等于60为D；<br>小于60为E。<br>输入一个百分制成绩，<br>输出一个五分制成绩。<br>#include &lt;stdio.h&gt;</p>
-<p>int main()<br>{<br>  int i;<br>  scanf(“%d”, &amp;i);<br>  if(i &gt;= 90)<br>    printf(“A”);<br>  else if(i &lt; 90 &amp;&amp; i &gt;= 80)<br>    printf(“B”);<br>  else if(i &lt; 80 &amp;&amp; i &gt;= 70)<br>    printf(“C”);<br>  else if(i &lt; 70 &amp;&amp; i &gt;= 60)<br>    printf(“D”);<br>  else if(i &lt; 60)<br>    printf(“E”);</p>
-<p>  return 0;<br>}</p>
+        <p>栈是一种典型的后进先出的数据结构，其操作主要有压栈(push)与出栈(pop)两种操作，两种操作都是操作栈顶。<br>高级语言在运行时都会被转换为汇编程序，在汇编程序运行过程中，充分利用了这一数据结构。每个程序在运行时都有虚拟地址空间，其中某一部分就是该程序对应的栈，用于保存函数调用信息和局部变量。常见的操作是压栈与出栈。需要注意的是，程序的栈是从进程地址空间的高地址向低地址增长。<br>32位和64位程序有些许区别：<br>x86<br>函数参数在函数返回地址的上方<br>x64<br>System V AMD64 ABI (Linux、FreeBSD、macOS 等采用)中前六个整型或指针参数依次保存在RDI, RSI, RDX, RCX, R8 和 R9 寄存器中，如果还有更多的参数的话才会保存在栈上。<br>内存地址不能大于 0x00007FFFFFFFFFFF，6 个字节长度，否则会抛出异常。</p>
 
       </section>
 
@@ -140,28 +138,14 @@
       
         <nav class="article-nav">
           
-            <div class="article-nav-item layout-padding">
-  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
-    
-    <div class="card-text">
-      
-        <a href="/2021/10/27/%E5%A4%84%E7%90%868%E8%BF%9B%E5%88%B6%E5%92%8C16%E8%BF%9B%E5%88%B6/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">处理8进制和16进制</h2>
-        </a>
-      
-      <div class="card-text--row">Newer</div>
-    </div>
-  </article>
-</div>
-          
           
             <div class="article-nav-item layout-padding">
   <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
     
     <div class="card-text">
       
-        <a href="/2021/09/18/hello-world/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">Hello World</h2>
+        <a href="/2021/11/04/elf%E6%96%87%E4%BB%B6%E4%BB%8B%E7%BB%8D%EF%BC%88pwn%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%89/" itemprop="url">
+          <h2 class="card-text--title text-ellipsis">elf文件介绍（pwn基础知识）</h2>
         </a>
       
       <div class="card-text--row">Older</div>
