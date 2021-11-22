@@ -22,7 +22,7 @@
 
   
 
-  <title>函数记录（pwn基础知识） | blogs of mAnxHDgui</title>
+  <title>指针变量 | blogs of mAnxHDgui</title>
 
   
 
@@ -97,11 +97,11 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">函数记录（pwn基础知识）</h1>
+          <h1 class="title-wrap">指针变量</h1>
           <h2 class="title-sub-wrap">
             <strong>John Doe</strong>
             <span>发布于</span>
-            <time  class="article-date" datetime="2021-10-30T03:46:52.000Z" itemprop="datePublished">2021-10-30</time>
+            <time  class="article-date" datetime="2021-11-22T13:42:14.000Z" itemprop="datePublished">2021-11-22</time>
           </h2>
           <ul class="wrap-list dark">
   
@@ -130,13 +130,7 @@
       
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <p>strcpy (a,b) ，是将b字符串中的内容复制到a中。</p>
-<p>write（a,b,c）,是把a中的字符写入b中，长度为c。<br>函数说明：write()会把参数buf所指的内存写入count个字节到参数放到所指的文件内。<br>返回值：如果顺利write()会返回实际写入的字节数。当有错误发生时则返回-1，错误代码存入errno中。</p>
-<p>read（a,b,c）,与write的区别是返回值不同。<br>函数说明：read()会把参数fd所指的文件传送count 个字节到buf 指针所指的内存中。<br>返回值：返回值为实际读取到的字节数, 如果返回0, 表示已到达文件尾或是无可读取的数据。若参数count 为0, 则read()不会有作用并返回0。<br>（read时fd中的数据如果小于要读取的数据，就会引起阻塞。）</p>
-<p>strncmp(a,b,c)，比较a和b的前c个字符。</p>
-<p>gets() 读取输入的字符，特点是读取没有上限，经常是漏洞点。</p>
-<p>memset（a,b,c）,意为将a中的当前位置的往后的c个字节用b替换，可以翻译为清空。</p>
-<p>strlen（a）检测字符串a的长度，与read相似，但区别为read遇到换行符\n（也就是换行时）停止，而strlen遇到\0（截断时）停止。</p>
+        <p>C语言中把地址称作指针。<br>在计算机中，数据是存放在内存单元中的，一般把内存中的一个字节称为一个内存单元。并且可以通过预先给内存单元进行地址编号来找到启对应的内存单元。因为每个地址编号对应一个内存单元，所以可以说一个地址编号指向一个内存单元。<br>C语言中可以使用&amp;来求变量的地址。<br>其中整型的变量占4个字节，字符型变量占1个字节。<br>1、指针变量的定义为：定义类型 <em>变量名；<br>如 int <em>pa；<br>2、如果定义了一个整型指针变量pa，则该指针变量智能指向int型的变量，就是只能保存整型变量的地址。<br>C语言中由</em>识别该变量为指针类型。定义多个指针变量时，需在每个变量名前加一个</em>。<br>如 int *pa ,<em>pb;<br>3、在使用已经定义好的指针变量时，变量名前不能加</em>。<br>如 int *p,a;<br>    p=&a;<br>或 int a,*p=&a;<br>4、变量名是合法标识符，为了区分，一般指针变量名以字母p（pointer）开头。<br>如 pa，pb；<br>5、指针变量的值是可以改变的，即可以改变指针变量的指向。<br>如 char *pa,a1,a2;<br>    pc=&c1;//pc指向c1<br>    pc=&c2;//pc不指向c1，而指向c2<br>6、同类型指针变量可以相互赋值。<br>如 int a,*p1,*p2,a;<br>    p1 = &a;//p1指向a；<br>    p2 = p1;//p2也指向a；<br>    int a=3,*pa=&a; //pa保存变量a的地址，即指向a = 3;<br>    char b=’d’,*pb=&b; //pb保存变量b的地址，即指向b = ‘d’;</p>
 
       </section>
 
@@ -144,28 +138,14 @@
       
         <nav class="article-nav">
           
-            <div class="article-nav-item layout-padding">
-  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
-    
-    <div class="card-text">
-      
-        <a href="/2021/11/04/elf%E6%96%87%E4%BB%B6%E4%BB%8B%E7%BB%8D%EF%BC%88pwn%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%89/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">elf文件介绍（pwn基础知识）</h2>
-        </a>
-      
-      <div class="card-text--row">Newer</div>
-    </div>
-  </article>
-</div>
-          
           
             <div class="article-nav-item layout-padding">
   <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
     
     <div class="card-text">
       
-        <a href="/2021/10/27/%E5%A4%84%E7%90%868%E8%BF%9B%E5%88%B6%E5%92%8C16%E8%BF%9B%E5%88%B6/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">处理8进制和16进制</h2>
+        <a href="/2021/11/13/%E5%9F%BA%E6%9C%AC%E6%A0%88%E4%BB%8B%E7%BB%8D%EF%BC%88pwn%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%89/" itemprop="url">
+          <h2 class="card-text--title text-ellipsis">基本栈介绍（pwn基础知识）</h2>
         </a>
       
       <div class="card-text--row">Older</div>

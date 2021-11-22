@@ -6,7 +6,7 @@
   <link href="https://manxhdgui.github.io/atom.xml" rel="self"/>
   
   <link href="https://manxhdgui.github.io/"/>
-  <updated>2021-11-13T08:48:47.116Z</updated>
+  <updated>2021-11-22T14:52:15.558Z</updated>
   <id>https://manxhdgui.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>指针变量</title>
+    <link href="https://manxhdgui.github.io/2021/11/22/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/"/>
+    <id>https://manxhdgui.github.io/2021/11/22/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/</id>
+    <published>2021-11-22T13:42:14.000Z</published>
+    <updated>2021-11-22T14:52:15.558Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;C语言中把地址称作指针。&lt;br&gt;在计算机中，数据是存放在内存单元中的，一般把内存中的一个字节称为一个内存单元。并且可以通过预先给内存单元进行地址编号来找到启对应的内存单元。因为每个地址编号对应一个内存单元，所以可以说一个地址编号指向一个内存单元。&lt;br&gt;C语言中可以使用&amp;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>基本栈介绍（pwn基础知识）</title>
